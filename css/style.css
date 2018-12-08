@@ -1,0 +1,85 @@
+section {
+	 height: 100vh;
+}
+/*SIDE NAVBAR*/
+.sidenav-overlay {
+	background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9));
+}
+.sidenav {
+	background-color: rgba(244, 67, 54);
+}
+
+#sidenav-content {
+	margin-top: 220px;
+}
+#sidenav-content a {
+	color: white;
+}
+
+/*HOME PAGE*/
+#home {
+	background-image: url('https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg');
+	background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.2)), url("https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg");
+	color: white; 
+	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#pretty-text{
+	background-color: rgba(0,0,0,0.7);
+}
+.btn-large {
+	text-transform: none;
+}
+.btn-large:hover {
+	opacity: 0.4;
+}
+
+
+/*ABOUT ME*/
+#lefty {
+	text-align: left;
+	color: white;
+	background-color: black;
+
+}
+#info {
+	padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#righty {
+	background-color: rgba(244, 67, 54);
+}
+#pic-box {
+	padding-top: 20%;
+    padding-bottom: 20%;
+    margin-left: 10%; 
+}
+#box-out {
+	height: 300px;
+    width: 300px;
+    background-image: url("http://www.funnytop.com/uploads/avatar/7_35048.png");
+    background-size: contain;
+    mix-blend-mode: screen; /*makes color blend with bg color*/
+    transition: all 2s ease-out;
+    cursor: none;
+    box-shadow: 10px 0px 50px 5px white;
+}
+#box-out:hover {
+	mix-blend-mode: normal;
+	transform: scale(1.1);
+	box-shadow: 0px 10px 80px 20px black;
+}
+
+@media only screen and (orientation: landscape) {
+  #lefty, #righty {
+    height: 90vh;
+  }
+  #pic-box{
+  	margin-left: 25%;
+  }
+}
