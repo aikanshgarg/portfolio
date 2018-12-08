@@ -6,4 +6,9 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-$(".dropdown-trigger").dropdown();
+// $(".dropdown-trigger").dropdown();
+
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
