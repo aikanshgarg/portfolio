@@ -160,11 +160,17 @@ section {
 /*---------------------CONTACT-------*/
 #contact {
 	background-color: #f1f5f5;
-	height: 60vh;
+	height: 50vh;
 }
 @media only screen and (orientation: portrait) {
 	#contact {
 		background-color: #f1f5f5;
-		height: 40vh;
+		height: 50vh;
 	}	
+}
+
+.hand {
+    margin-top: 146%;
+    opacity: 1;
+    margin-right: -97%;
 }

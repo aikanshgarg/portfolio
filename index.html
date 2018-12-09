@@ -16,6 +16,10 @@
 
       <link rel="shortcut icon" href="ag.png" type="image/x-icon">
 
+     <!--  <script src="https://unpkg.com/scrollreveal"></script> -->
+
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
     </head>
 
 <body>
@@ -24,7 +28,7 @@
 <section id="home">
   
   <!-- NAVBAR -->
-  <nav class="red" role="navigation">
+  <nav class="red heya" role="navigation">
     <div class="nav-wrapper container">
       <ul class="left hide-on-med-and-down">
         <li><a href="#">About</a></li>
@@ -161,7 +165,7 @@
    <!--  LAPTOP IMAGE for MOBILE -->
     <div class="row hide-on-med-and-up">  
       <div class="col s10 m4 l6 center" id="laptop">
-        <div class="center section flow-text" style="margin-top: -6%;padding-bottom:0;margin-left: 10%;">OTHER PROJECTS</div><br>
+        <div class="center section flow-text other-projects" style="margin-top: -6%;padding-bottom:0;margin-left: 10%;">OTHER PROJECTS</div><br>
         <img src="laptop.png" class="responsive-img" id="laptop" style="margin-left: 10%;">
       </div>
     </div>
@@ -169,9 +173,9 @@
 
 <!-- -------------------------------------------------------- -->
 <section id="contact">
-  <div class="row hide-on-med-and-up right-align">
+  <div class="row hide-on-med-and-up right-align" data-aos="fade-up">
     <div class="col s4 m4 l6">
-      <img src="https://toyfight.co/wp-content/themes/toybox/img/figures/tinified/footer-rock.png" class="responsive-img">
+      <img src="https://toyfight.co/wp-content/themes/toybox/img/figures/tinified/footer-rock.png" class="responsive-img hand">
     </div>
   </div>
 </section>
@@ -187,17 +191,25 @@
     </div>
   </footer>
 <!-- --------------------- -->
+
+      <!-- LIVERELOAD JS (for development only) -->
       <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
-
-
-
-      <!--JavaScript at end of body for optimized loading-->
+      <!-- MATERIALIZE JS -->
       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<!--       <script src="js/materialize.js"></script> -->
-      <script src="js/init.js"></script>
+
+      <!-- MY JS FILE -->
+      <script type="text/javascript" src="js/init.js"></script>
+
+      <!-- AOS JS(ANIMATIONS ON SCROLL) -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+        
+  
 
     </body>
   </html>
