@@ -57,7 +57,7 @@ section {
 	background-color: rgba(244, 67, 54);
 }
 #pic-box {
-	padding-top: 20%;
+	padding-top: 22%;
     padding-bottom: 20%;
     margin-left: 10%; 
 }
@@ -74,12 +74,15 @@ section {
 #box-out:hover {
 	mix-blend-mode: normal;
 	transform: scale(1.1);
-	box-shadow: 0px 10px 80px 20px black;
+	box-shadow: 0px 10px 80px 20px #111;
 }
+
+
+/*-- --------------------------------------------------------*/
 
 @media only screen and (orientation: landscape) {
   #index-banner{
-  	margin-top: 10%;
+  	margin-top: 6%;
   }
   #lefty, #righty {
     height: 100vh;
@@ -87,19 +90,39 @@ section {
   #pic-box{
   	margin-left: 25%;
   }
+  .carousel{
+  	min-height: 600px;
+  }
+  #laptop{
+  	position: relative;
+  	margin-top: -14%;
+  	margin-left: 22.7%;
+  }
 }
 @media only screen and (orientation: portrait) {
-	#pretty-text {
+  #pretty-text {
   	padding: 0px;
+  }
+  #pic-box{
+  	margin-left: 6%;
+  }
+  #box-out{
+  	height: 190px;
+    width: 190px;
+    margin-left: 14%;
+  }
+  #laptop{
+	margin: 0px;
+    margin-top: -18%;
+    margin-left: -2%;
+    position: relative;
   }
 }
 /*-- --------------------------------------------------------*/
 /*WORK*/
 
-#work {
-	background: #ECE9E6;
-	background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);
-	background: linear-gradient(to top, #FFFFFF, #ECE9E6); 
+#work { 
+	background: #fff;
 	margin: 0px;
 	padding: 0px;
 }
@@ -107,4 +130,9 @@ section {
 .carousel {
 	margin-top: 40px;
     margin-bottom: 40px;
+}
+
+#things-built {
+	padding-bottom: 2%;
+    padding-top: 20%;
 }
