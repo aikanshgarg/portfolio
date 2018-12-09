@@ -32,6 +32,3 @@ $('.carousel.carousel-slider').carousel({
 // ScrollReveal().reveal('.page-footer', { delay: 200});
 // ScrollReveal().reveal('.hand', { delay: 1500, scale: 0, reset: true, easing: 'cubic-bezier(1,0,0,1)', distance: '50px', duration: 950});
 
-
-// AOS.init();
-
