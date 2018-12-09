@@ -77,7 +77,6 @@ section {
 	box-shadow: 0px 10px 60px 10px #111;
 }
 
-
 /*-- --------------------------------------------------------*/
 
 @media only screen and (orientation: landscape) {
@@ -93,6 +92,11 @@ section {
   .carousel{
   	min-height: 600px;
   }
+  .splitter {
+   background-color: #111;
+  /*background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);*/
+  background-image: -webkit-linear-gradient(235deg, #111 50%, rgba(244, 67, 54) 50%)
+}
 }
 @media only screen and (orientation: portrait) {
   #pretty-text {
@@ -112,6 +116,9 @@ section {
   img.responsive-img, video.responsive-video{
 		max-width: 65%;
 	}
+  .mini {
+  font-size: 12px;
+}
 }
 /*FOR IPHONE-5*/
 @media only screen and (max-height: 670px) {
@@ -134,13 +141,14 @@ section {
 /*WORK*/
 
 #work { 
-	background: #fff;
+	color: white;
+  background-color: #111;
 	margin: 0px;
 	padding: 0px;
 }
 
 .carousel {
-	margin-top: 40px;
+	  margin-top: 40px;
     margin-bottom: 40px;
     cursor: all-scroll;
 }
@@ -153,8 +161,8 @@ section {
     padding-top: 20%;
 }
 #laptop-big{
-	margin-left: -15%;
 	margin-top: 90%;
+  margin-left: -33%;
 }
 
 /*---------------------CONTACT-------*/
@@ -166,10 +174,27 @@ section {
 	#contact {
 		background-color: #f1f5f5;
 		height: 50vh;
-	}	
+	}
+  
+  .splitter {
+   background-color: #111;
+  /*background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);*/
+  background-image: -webkit-linear-gradient(232deg, #111 50%, rgba(244, 67, 54) 50%)
+  }	
 }
 
-/*.hand {
-    margin-top: 146%;
-    margin-right: -97%;
-}*/
+/*BECAUSE MATERIALIZE AND CSS PULSE COLLIDE*/
+@keyframes my-pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+.my-pulse {
+  animation-name: my-pulse;
+  animation-duration: 1s;
+}
+.my-animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
