@@ -4,7 +4,7 @@ section {
 
 /*SIDE NAVBAR*/
 .sidenav-overlay {
-	background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 1))
+	background: rgba(0, 0, 0, 1);
 }
 .sidenav {
 	background-color: rgba(244, 67, 54,1);
@@ -20,7 +20,7 @@ section {
 /*HOME PAGE*/
 #home {
 	background-image: url('https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg');
-	background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.2)), url("https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg");
+	background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.2)), url("https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg");
 	color: white; 
 	/* Create the parallax scrolling effect */
   	background-attachment: fixed;
