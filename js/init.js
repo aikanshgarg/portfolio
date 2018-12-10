@@ -14,6 +14,7 @@ $('.carousel.carousel-slider').carousel({
   });
 
 
+
 // putting at last so that materialize.js works
 
 // ScrollReveal library

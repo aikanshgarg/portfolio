@@ -1,3 +1,7 @@
+
+
+/*---------------------------------------------------*/
+
 section {
 	 height: 100vh;
 }
@@ -49,32 +53,32 @@ section {
 	background-color: #111;
 }
 #info {
-	padding-top: 20%;
-    padding-bottom: 20%;
+	 padding-top: 20%;
+   padding-bottom: 20%;
 }
 
 #righty {
 	background-color: rgba(244, 67, 54);
 }
 #pic-box {
-	padding-top: 22%;
+	  padding-top: 22%;
     padding-bottom: 20%;
     margin-left: 10%; 
 }
 #box-out {
-	height: 300px;
-    width: 300px;
+	  height: 280px;
+    width: 280px;
     background-image: url("http://www.funnytop.com/uploads/avatar/7_35048.png");
     background-size: contain;
     mix-blend-mode: screen; /*makes color blend with bg color*/
-    transition: all 2s ease-out;
+    transition: all 0.2s ease-out;
     cursor: none;
-    box-shadow: 10px 0px 50px 5px white;
+   /* box-shadow: 10px 0px 50px 5px white;*/
 }
 #box-out:hover {
 	mix-blend-mode: normal;
 	transform: scale(1.1);
-	box-shadow: 0px 10px 60px 10px #111;
+	box-shadow: 0px 5px 20px 0px #111;
 }
 
 /*-- --------------------------------------------------------*/
@@ -96,7 +100,10 @@ section {
    background-color: #111;
   /*background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);*/
   background-image: -webkit-linear-gradient(235deg, #111 50%, rgba(244, 67, 54) 50%)
-}
+  }
+  #contact {
+    height: 50vh;
+  }
 }
 @media only screen and (orientation: portrait) {
   #pretty-text {
@@ -111,14 +118,18 @@ section {
   #box-out{
   	height: 190px;
     width: 190px;
-    margin-left: 14%;
+    margin-left: 20%;
   }
   img.responsive-img, video.responsive-video{
 		max-width: 65%;
 	}
   .mini {
   font-size: 12px;
-}
+  }
+  #contact{
+    height: 30vh;
+  }
+
 }
 /*FOR IPHONE-5*/
 @media only screen and (max-height: 670px) {
@@ -135,6 +146,12 @@ section {
   h4{
   	font-size: 20px;
   }
+   #box-out{
+    margin-left: 14%;
+   }
+   #social-icons{
+    margin-top: -5px;
+   }
 
 }
 /*-- --------------------------------------------------------*/
@@ -165,17 +182,7 @@ section {
   margin-left: -33%;
 }
 
-/*---------------------CONTACT-------*/
-#contact {
-	background-color: #f1f5f5;
-	height: 50vh;
-}
-@media only screen and (orientation: portrait) {
-	#contact {
-		background-color: #f1f5f5;
-		height: 50vh;
-	}
-  
+/*---------------------SCREEN SPLIT-------*/  
   .splitter {
    background-color: #111;
   /*background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);*/
@@ -183,15 +190,45 @@ section {
   }	
 }
 
+
+
+
+/*---------------------CONTACT-------*/
+.social-icon {
+  opacity: 1;
+}
+.social-icon:hover {
+  opacity: 0.5;
+}
+.btn-small {
+  margin-top: 10px;
+}
+
+.hand {
+  margin-top: 5%;
+}
+@media only screen and (min-height: 788px) {
+  .hand {
+    margin-top: 10.8%;
+  }
+}
+@media only screen and (min-height: 823px) {
+  .hand {
+    margin-top: 8%;
+  }
+}
+
+
+
 /*BECAUSE MATERIALIZE AND CSS PULSE COLLIDE*/
 @keyframes my-pulse {
   0% {transform: scale(1);}
-  50% {transform: scale(1.1);}
+  50% {transform: scale(1.2);}
   100% {transform: scale(1);}
 }
 .my-pulse {
   animation-name: my-pulse;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 .my-animated {
   animation-duration: 2s;
