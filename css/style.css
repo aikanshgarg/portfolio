@@ -5,6 +5,28 @@ body[data-aos-duration='10000'] [data-aos],
   }
 
 
+/*SCROLLBAR: The -webkit-scrollbar is not supported by Firefox or IE and Edge*/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 100px 100px 5px #111; 
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F44336; 
+}
+
+
 /*---------------------------------------------------*/
 section {
 	 height: 100vh;
