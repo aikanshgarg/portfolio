@@ -1,10 +1,15 @@
+/*changing default animation time of AOS*/
+body[data-aos-duration='10000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='10000'] {
+    transition-duration: 25000ms;
+  }
 
 
 /*---------------------------------------------------*/
-
 section {
 	 height: 100vh;
 }
+
 
 /*SIDE NAVBAR*/
 .sidenav-overlay {
@@ -24,7 +29,7 @@ section {
 /*HOME PAGE*/
 #home {
 	background-image: url('https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg');
-	background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.2)), url("https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg");
+	background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.5)), url("https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg");
 	color: white; 
 	/* Create the parallax scrolling effect */
   	background-attachment: fixed;
@@ -42,6 +47,11 @@ section {
 }
 .btn-large:hover {
 	opacity: 0.4;
+}
+
+.boldy {
+  font-weight: bolder;
+  transform: scale(1.5);
 }
 
 /*-- --------------------------------------------------------*/
@@ -71,7 +81,7 @@ section {
     background-image: url("http://www.funnytop.com/uploads/avatar/7_35048.png");
     background-size: contain;
     mix-blend-mode: screen; /*makes color blend with bg color*/
-    transition: all 0.2s ease-out;
+    transition: all 0.1s ease-out;
     cursor: none;
    /* box-shadow: 10px 0px 50px 5px white;*/
 }

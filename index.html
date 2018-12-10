@@ -35,7 +35,7 @@
 <section id="home">
   
   <!-- NAVBAR -->
-  <nav class="red heya" role="navigation" data-aos="fade-down" data-aos-duration="3000">
+  <nav class="red heya" role="navigation" data-aos="fade-down" data-aos-duration="10000">
     <div class="nav-wrapper container">
       <ul class="left hide-on-med-and-down">
         <li><a href="#">About</a></li>
@@ -53,7 +53,7 @@
         </div>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
-      <span class="flow-text right" id="average-guy">The Average Guy</span>
+      <span class="flow-text right" id="average-guy">Looking for work!</span>
     </div>
   </nav>
 
@@ -61,11 +61,13 @@
     <div class="container" id="pretty-text" data-aos="zoom-in" data-aos-once="true">
       <br><br>
       <div class="row" style="margin-bottom: 0;">
-        <h6 class="header red-text col s12 light left-align" style="margin-left: 1%;">Hi, my name is</h6>
+        <h6 class="header red-text col s12 light left-align" style="margin-left: 1.5%;">Hi, my name is</h6>
         <h1 class="header col s12 left-align" style="margin-top: 0px; font-size: 80px;">Aikansh Garg<span class="red-text">;</span></h1>
       </div>
       <div class="row">
-        <h4 class="col s12 light left-align" id="who">I build things for the web. I am full-stack web developer. I love pretty UI/UX. </h4>
+        <span class="col s12 flow-text light left-align" id="stay">I build things for the web.</span>
+        <span class="col s12 flow-text light left-align">
+          <span class="flow-text light left-align" id="after-stay">I love </span><span id="nostay" class="flow-text boldy red-text"></span>
       </div><br>
       <div class="row">
         <h4 class="col s12 left" style="margin-top: 0;"><a href="#" class="btn-large waves-effect waves-light white-text red">Get In Touch</a></h4>
@@ -81,7 +83,7 @@
         <div class="container" id="info" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-center">
           <p class="flow-text red-text"><i class="fas fa-user-ninja" style="margin-right: 6px;"></i>&nbsp;About Me 
           </p>
-          Hey there! I'm a full-stack web developer who enjoys working at the intersection of engineering and design. I build exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces while also being scalable and efficient behind the scenes.<br><br>I love working in a team setting. I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!<br><br>Here's a few things I'm experienced with:<br><br>
+          Hey there! I'm a full-stack web developer who enjoys working at the intersection of engineering and design. I build exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces while also being scalable and efficient behind the scenes.<br><br>I chose to be interested in things than to look for interesting things. I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!<br><br>Here's a few things I'm experienced with:<br><br>
       <div class="row">
         <div class="col s5 m4 l4"><i class="fa fa-thumbs-up mini red-text"></i> &nbsp;HTML5</div>
         <div class="col s6 m6 l6"><i class="fa fa-thumbs-up mini red-text"></i> &nbsp;Ruby on Rails</div>
@@ -207,7 +209,7 @@
   <footer class="page-footer red" style="position: relative;">
     <div class="footer-copyright">
       <div class="container center">
-      Designed & Built with  &nbsp;<i class="fas fa-heart my-animated my-pulse" style="font-size: 18px;"></i> &nbsp;by Aikansh Garg</a>
+      <i class="far fa-copyright"></i> Designed & Built with  &nbsp;<i class="fas fa-heart my-animated my-pulse" style="font-size: 18px;"></i> &nbsp;by <span class="red-text text-lighten-3">Aikansh Garg</span></a>
       </div>
     </div>
   </footer>
@@ -222,8 +224,7 @@
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-      <!-- MY JS FILE -->
-      <script type="text/javascript" src="js/init.js"></script>
+      
 
       <!-- AOS JS(ANIMATIONS ON SCROLL) -->
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -231,9 +232,12 @@
         AOS.init();
       </script>
 
-      <script type="text/javascript" src="js/typeit.js"></script>
+      <!-- <script type="text/javascript" src="js/typeit.js"></script> -->
      
-  
+  <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js"></script>
+
+  <!-- MY JS FILE -->
+      <script type="text/javascript" src="js/init.js"></script>
 
     </body>
   </html>
