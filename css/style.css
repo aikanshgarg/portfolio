@@ -100,7 +100,8 @@ section {
 #box-out {
 	  height: 280px;
     width: 280px;
-    background-image: url("http://www.funnytop.com/uploads/avatar/7_35048.png");
+    /*background-image: url("http://www.funnytop.com/uploads/avatar/7_35048.png");*/
+    /*background-image: url('avatar.jpg');*/
     background-size: contain;
     mix-blend-mode: screen; /*makes color blend with bg color*/
     transition: all 0.1s ease-out;
@@ -124,6 +125,13 @@ section {
   }
   #pic-box{
   	margin-left: 25%;
+  }
+  #box-out{
+    margin-top: 8%;
+  }
+  .good-pic{
+    height: 280px;
+    width: 280px;
   }
   .carousel{
   	min-height: 600px;
@@ -151,6 +159,10 @@ section {
   	height: 190px;
     width: 190px;
     margin-left: 20%;
+  }
+  .good-pic{
+    height: 200px;
+    width: 200px;
   }
   img.responsive-img, video.responsive-video{
 		max-width: 65%;
