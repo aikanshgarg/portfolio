@@ -59,7 +59,7 @@ $('.carousel.carousel-slider').carousel({
 
 
 
-// --------------LOOP:true NOT WORKING------------
+// //--------------LOOP:true NOT WORKING------------
 
 new TypeIt('#nostay', {
   speed: 100,
@@ -104,3 +104,10 @@ new TypeIt('#nostay', {
 // .options({speed: 45})
 // .pause(300)
 // .type('!')
+
+
+
+
+ $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });

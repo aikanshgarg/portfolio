@@ -234,7 +234,6 @@ section {
   }	
 }
 
-
 /*---------------------CONTACT-------*/
 .social-icon {
   opacity: 1;
@@ -266,7 +265,7 @@ section {
 @media only screen and (orientation: landscape) {
   .hand {
     margin-top: 1.7%;
-    margin-left: 8%;
+    margin-left: 15%;
   }
 
   #social-icons{
@@ -290,3 +289,27 @@ section {
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
+
+
+
+/*
+WAS TRYING OUT CLICKING ON LAPTOP AND GETTING A DIV, not pretty at all*/
+/*
+#welcomeDiv {
+  height: 30px;
+  width: 80px;
+  background-color: #222;
+  display: none;
+}
+
+.click-lap {
+  max-width: 65%;
+  height: auto;
+  border-style: none;
+}
+
+input[type="image"]
+{
+    border: none;
+    outline:none;
+}*/
