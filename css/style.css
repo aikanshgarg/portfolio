@@ -265,7 +265,7 @@ section {
 @media only screen and (orientation: landscape) {
   .hand {
     margin-top: 1.7%;
-    margin-left: 15%;
+    margin-left: 0%;
   }
 
   #social-icons{

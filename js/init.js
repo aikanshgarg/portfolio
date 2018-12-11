@@ -1,10 +1,23 @@
-(function($){
-  $(function(){
+// (function($){
+//   $(function(){
 
-    $('.sidenav').sidenav();
+//     $('.sidenav').sidenav();
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+//   }); // end of document ready
+// })(jQuery); // end of jQuery name space
+
+// https://stackoverflow.com/questions/50295140/how-to-hide-sidenav-in-materialize-css-when-link-is-clicked
+$(document).ready(function(){
+    $('.sidenav')
+        .sidenav()
+        .on('click tap', 'li a', () => {
+            $('.sidenav').sidenav('close');
+        });
+});
+
+
+
+
 
 // $(".dropdown-trigger").dropdown();
 
@@ -107,7 +120,34 @@ new TypeIt('#nostay', {
 
 
 
-
+// TOOLTIP (on laptop image for desktops)
  $(document).ready(function(){
     $('.tooltipped').tooltip();
   });
+
+
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $('.scrolll').on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1200, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});

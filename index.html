@@ -38,17 +38,17 @@
   <nav class="red heya" role="navigation" data-aos="fade-down" data-aos-duration="10000">
     <div class="nav-wrapper container">
       <ul class="left hide-on-med-and-down">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#info" class="scrolll">About</a></li>
+        <li><a href="#work" class="scrolll">Work</a></li>
+        <li><a href="#contact" class="scrolll">Contact</a></li>
         <li><a href="#">Resume</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
         <div id="sidenav-content">
-          <li><a href="#" style="padding: 0 100px;"><i class="fas fa-user-ninja" style="margin-right: 6px;"></i>About</a></li>
-          <li><a href="#" style="padding: 0 100px;"><i class="fas fa-briefcase" style="margin-right: 6px;"></i>&nbsp;Work</a></li>
-          <li><a href="#" style="padding: 0 94px;"><i class="fas fa-hands-helping" style="margin-right: 8px;"></i>&nbsp;Contact</a></li>
+          <li><a href="#info" class="scrolll" style="padding: 0 100px;"><i class="fas fa-user-ninja" style="margin-right: 6px;"></i>About</a></li>
+          <li><a href="#work" class="scrolll" style="padding: 0 100px;"><i class="fas fa-briefcase" style="margin-right: 6px;"></i>&nbsp;Work</a></li>
+          <li><a href="#contact" class="scrolll" style="padding: 0 94px;"><i class="fas fa-hands-helping" style="margin-right: 8px;"></i>&nbsp;Contact</a></li>
           <li style="margin-left: 14%;margin-top: 12%;margin-right: 14%;"><a href="#" class="btn-large waves-effect waves-light red-text white flow-text pulse">Resume</a></li>
         </div>
       </ul>
@@ -83,7 +83,7 @@
         <div class="container" id="info" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-center">
           <p class="flow-text red-text"><i class="fas fa-user-ninja" style="margin-right: 6px;"></i>&nbsp;About Me 
           </p>
-          Hey there! I'm a full-stack web developer who enjoys working at the intersection of engineering and design. I build exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces while also being scalable and efficient behind the scenes.<br><br>I chose to be interested in things than to look for interesting things. I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!<br><br>Here's a few things I'm experienced with:<br><br>
+          Hey there! I'm a full-stack web developer who enjoys working at the intersection of engineering and design. I build exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces while also being scalable and efficient behind the scenes.<br><br>I chose to be interested in things than to look for interesting things. I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!<br><br>Here're a few things I'm well versed in:<br><br>
       <div class="row">
         <div class="col s5 m4 l4"><i class="fa fa-thumbs-up mini red-text"></i> &nbsp;HTML5</div>
         <div class="col s6 m6 l6"><i class="fa fa-thumbs-up mini red-text"></i> &nbsp;Ruby on Rails</div>
@@ -195,27 +195,43 @@
 <!-- MOBILE VERSION -->
   <div class="row hide-on-med-and-up" style="margin-bottom: 0;">
     <div class="col s2" style="padding-left: 28px;">
-      <ul id="social-icons"><br>
-        <li><a class="btn-floating grey darken-4 btn-small social-icon"><i class="fab fa-github social-icon"></i></a></li>
-        <li><a class="btn-floating btn-small social-icon"  style="background-color:#0077B5;"><i class="fab fa-linkedin-in social-icon"></i></a></li>
-        <li><a class="btn-floating btn-small social-icon"><i class="fab fa-facebook-f social-icon" style="background-color:#3b5999;"></i></a></li>
+      <ul id="social-icons"><span class="red-text"><br>Social</span><br>
+        <li><a href="https://github.com/aikanshgarg" target="_blank"  class="btn-floating grey darken-4 btn-small social-icon"><i class="fab fa-github social-icon"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/aikansh-garg-768269167/" target="_blank" class="btn-floating btn-small social-icon"  style="background-color:#0077B5;"><i class="fab fa-linkedin-in social-icon"></i></a></li>
+        <li><a href="https://www.facebook.com/aikansh.garg" target="_blank" class="btn-floating btn-small social-icon"><i class="fab fa-facebook-f social-icon" style="background-color:#3b5999;"></i></a></li>
       </ul>
     </div>
-    <div class="col s8 right hand" data-aos="slide-up" data-aos-easing="ease-in-sine" data-aos-duration="200">
-          <img src="https://toyfight.co/wp-content/themes/toybox/img/figures/tinified/footer-rock.png" class="responsive-img hand" style="max-width: 30%;">
+    <div class="col s8 center hand" data-aos="slide-up" data-aos-easing="ease-in-sine" data-aos-duration="200">
+      <img src="https://toyfight.co/wp-content/themes/toybox/img/figures/tinified/footer-rock.png" class="responsive-img hand" style="max-width:30%;margin-left:2%;">
+    </div>
+    <div class="col s2">
+      <ul><span class="red-text"><br>&nbsp;Fun</span><br>
+        <li><a class="tooltipped btn-floating btn-small social-icon" data-position="left" data-tooltip="Mentoring" style="background-color: #18FFFF;"><i class="fas fa-chalkboard-teacher" style="color: #212121;"></i></a></li>
+        <li><a class="tooltipped btn-floating btn-small social-icon" data-position="left" data-tooltip="MUN & Debating" style="background-color:#7C4DFF;"><i class="black-text text-lighten-3 fas fa-user-tie" style="color: #212121;"></i></a></li>
+        <li><a class="tooltipped btn-floating btn-small social-icon" data-position="left" data-tooltip="Zumba" style="background-color: #EEFF41;"><img src="dance.png" style="height: 23px; width: 23px; margin-top: 6px;padding: 1.2px;"> </a></li>
+      </ul>
     </div>
   </div>
+
+
 <!-- TAB/DESKTOP VERSION -->
  <div class="row hide-on-small-only" style="margin-bottom: 0;">
     <div class="col s2" style="padding-left: 50px;">
-      <ul id="social-icons"><br>
-        <li><a class="btn-floating grey darken-4 btn-large social-icon"><i class="fab fa-github social-icon"></i></a></li>
-        <li style="margin-top: 15px;"><a class="btn-floating btn-large social-icon"  style="background-color:#0077B5;"><i class="fab fa-linkedin-in social-icon"></i></a></li>
-        <li style="margin-top: 15px;"><a class="btn-floating btn-large social-icon"><i class="fab fa-facebook-f social-icon" style="background-color:#3b5999;"></i></a></li>
+      <ul id="social-icons"><span class="red-text" style="margin-left: -5%;">Stay in touch</span><br><br>
+        <li><a href="https://github.com/aikanshgarg" target="_blank" class="btn-floating grey darken-4 btn-large social-icon"><i class="fab fa-github social-icon"></i></a></li>
+        <li style="margin-top: 15px;"><a href="https://www.linkedin.com/in/aikansh-garg-768269167/" target="_blank" class="btn-floating btn-large social-icon"  style="background-color:#0077B5;"><i class="fab fa-linkedin-in social-icon"></i></a></li>
+        <li style="margin-top: 15px;"><a href="https://www.facebook.com/aikansh.garg" target="_blank" class="btn-floating btn-large social-icon"><i class="fab fa-facebook-f social-icon" style="background-color:#3b5999;"></i></a></li>
       </ul>
     </div>
-    <div class="col s8 right hand" data-aos="slide-up" data-aos-easing="ease-in-sine" data-aos-duration="200" data-aos-anchor-placement="center-bottom">
+    <div class="col s8 center hand" data-aos="slide-up" data-aos-easing="ease-in-sine" data-aos-duration="200" data-aos-anchor-placement="center-bottom">
           <img src="https://toyfight.co/wp-content/themes/toybox/img/figures/tinified/footer-rock.png" class="responsive-img hand" style="max-width: 17%;">
+    </div>
+    <div class="col s2" id="social-icons">
+      <ul><span class="red-text" style="margin-left: -12%;">Other interests</span><br><br>
+        <li><a class="tooltipped btn-floating btn-large social-icon" data-position="left" data-tooltip="Mentoring"><i class="fas fa-chalkboard-teacher black-text text-lighten-3" style="background-color: #18FFFF;"></i></a></li>
+        <li style="margin-top: 15px;"><a class="tooltipped btn-floating btn-large social-icon" data-position="right" data-tooltip="Zumba" style="background-color: #EEFF41;"><img src="dance.png" style="height: 40px; width: 40px; margin-top: 9px;padding: 3px;"> </a></li>
+        <li style="margin-top: 15px;"><a class="tooltipped btn-floating btn-large social-icon" data-position="bottom" data-tooltip="MUN & Debating" style="background-color:#7C4DFF;"><i class="fas fa-user-tie black-text text-lighten-3"></i></a></li>
+      </ul>
     </div>
   </div>
 
