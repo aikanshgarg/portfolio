@@ -1,7 +1,7 @@
 /*changing default animation time of AOS*/
 body[data-aos-duration='10000'] [data-aos],
   [data-aos][data-aos][data-aos-duration='10000'] {
-    transition-duration: 18000ms;
+    transition-duration: 10000ms;
   }
 
 
