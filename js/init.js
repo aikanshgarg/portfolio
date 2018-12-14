@@ -16,11 +16,7 @@ $(document).ready(function(){
 });
 
 
-
-
-
-// $(".dropdown-trigger").dropdown();
-
+// PROJECTS BUILT COROUSEL
 $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
@@ -128,7 +124,7 @@ new TypeIt('#nostay', {
   });
 
 
-
+// FOR SCROLLING SMOOTHLY ON CLICKING THAT SECTION's CLICK
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $('.scrolll').on('click', function(event) {

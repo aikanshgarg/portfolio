@@ -50,8 +50,8 @@ section {
 /*-- --------------------------------------------------------*/
 /*HOME PAGE*/
 #home {
-	background-image: url('https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg');
-	background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.5)), url("https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg");
+	/*background-image: url('https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg');*/
+	/*background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.5)), url(bg.jpg);*/
 	color: white; 
 	/* Create the parallax scrolling effect */
   	background-attachment: fixed;
@@ -195,6 +195,16 @@ section {
    }
    #social-icons{
     margin-top: -5px;
+   }
+   footer {
+        margin-top: 0;
+   }
+   .hand {
+       margin-top: 10%;
+   }
+   .fun-icons {
+        margin-top: -11%;
+    margin-left: -36%;
    }
 
 }
