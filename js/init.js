@@ -62,51 +62,53 @@ $('.carousel.carousel-slider').carousel({
 //   startDelay: 5800
 // });
 
-// new TypeIt('#nostay', {
-//   speed: 50,
-//   breakLines: false,
-//   //autoStart: true,
-//   //startDelay: 8000,
-//   //loop: true
-// }).type("whats this?");
+new TypeIt('#nostay', {
+  speed: 75,
+  breakLines: false,
+  autoStart: true,
+  startDelay: 600,
+  loopDelay: 3000,
+  loop: true,
+  lifeLike: true
+});
 
 
 
 // //--------------LOOP:true NOT WORKING------------
 
-new TypeIt('#nostay', {
-  speed: 100,
-  startDelay: 600,
-  //loop: true
-}).type('playing with CSS.')
-.pause(600)
-.options({speed: 200})
-.delete(17)
-.options({speed: 45})
-.pause(300)
-.type('JavaScrilt')
-.pause(600)
-.options({speed: 200})
-.delete(2)
-.options({speed: 45})
-.pause(300)
-.type('pt.')
-.pause(400)
-.options({speed: 200})
-.delete(24)
-.type('Ruby on Rails.')
-.pause(500)
-.options({speed: 45})
-.delete(14)
-.options({speed: 45})
-.pause(900)
-.type('Codeeng')
-.pause(800)
-.options({speed: 200})
-.delete(4)
-.options({speed: 200})
-.pause(300)
-.type('ing.')
+// new TypeIt('#nostay', {
+//   speed: 100,
+//   startDelay: 600,
+//   //loop: true
+// }).type('playing with CSS.')
+// .pause(600)
+// .options({speed: 200})
+// .delete(17)
+// .options({speed: 45})
+// .pause(300)
+// .type('JavaScrilt')
+// .pause(600)
+// .options({speed: 200})
+// .delete(2)
+// .options({speed: 45})
+// .pause(300)
+// .type('pt.')
+// .pause(400)
+// .options({speed: 200})
+// .delete(24)
+// .type('Ruby on Rails.')
+// .pause(500)
+// .options({speed: 45})
+// .delete(14)
+// .options({speed: 45})
+// .pause(900)
+// .type('Codeeng')
+// .pause(800)
+// .options({speed: 200})
+// .delete(4)
+// .options({speed: 200})
+// .pause(300)
+// .type('ing.')
 // .pause(600)
 // .options({speed: 100})
 // .delete(24)
