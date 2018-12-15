@@ -7,6 +7,17 @@
 // })(jQuery); // end of jQuery name space
 
 // https://stackoverflow.com/questions/50295140/how-to-hide-sidenav-in-materialize-css-when-link-is-clicked
+
+
+//paste this code under the head tag or in a separate js file.
+  // Wait for window load
+  $(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+
+  
+
 $(document).ready(function(){
     $('.sidenav')
         .sidenav()
