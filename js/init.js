@@ -73,7 +73,7 @@ new TypeIt('#nostay', {
   speed: 75,
   breakLines: false,
   autoStart: true,
-  startDelay: 600,
+  startDelay: 900,
   loopDelay: 3000,
   loop: true,
   lifeLike: true
